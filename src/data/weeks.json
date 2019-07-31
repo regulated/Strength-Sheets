@@ -1,0 +1,14 @@
+[
+    {"week": "Week 1", "T1reps": "3x6", "T1perc": 0.70},
+    {"week": "Week 2", "T1reps": "3x5", "T1perc": 0.75},
+    {"week": "Week 3", "T1reps": "3x4", "T1perc": 0.80},
+    {"week": "Week 4", "T1reps": "3x3", "T1perc": 0.825},
+    {"week": "Week 5", "T1reps": "4x2", "T1perc": 0.85},
+    {"week": "Week 6", "T1reps": "1x1", "T1perc": 1.00},
+    {"week": "Week 7", "T1reps": "5x3", "T1perc": 0.80},
+    {"week": "Week 8", "T1reps": "5x2", "T1perc": 0.825},
+    {"week": "Week 9", "T1reps": "5x1", "T1perc": 0.85},
+    {"week": "Week 10", "T1reps": "3x2", "T1perc": 0.90},
+    {"week": "Week 11", "T1reps": "3x1", "T1perc": 0.95},
+    {"week": "Week 12", "T1reps": "1x1", "T1perc": 1.05}
+]
