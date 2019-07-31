@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-//import { days, weeks, dupWeeks, dup, count } from  "../components/objects"
 import MaxesForm from "../components/maxes-form"
 import DupTable from "../components/dup-table"
   
@@ -18,10 +17,10 @@ const CalanderView = ({data}) => (
     <SEO title="Calander View" />
     <h1>Calander View</h1>
 
-    <DupTable/>
-    {/*<MaxesForm/>
-    */}
+    <MaxesForm/>
 
+    <DupTable/>
+    
     <div class="container">
       <h2>12 Week Periodization</h2>
       <table class="table table-bordered">
