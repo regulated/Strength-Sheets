@@ -8,8 +8,8 @@ const TierList = () => {
       allTiersJson {
         edges {
           node {
-            T1
-            T2a
+            Tier
+            Lift
           }
         }
       }
@@ -18,26 +18,25 @@ const TierList = () => {
 
   return (
     <div class="container">
-      <h2>Rotating DUP UHF</h2>
       <table class="table table-bordered">
-        <thead>
+       {/* <thead>
           <tr>
+            <th></th>
             {data.allTiersJson.edges.map((i) => {
               return <th>Day</th>
             })}
           </tr>
         </thead>
+          */}
         <tbody>
-          <tr>
-            {data.allTiersJson.edges.map((i) => {
-              return <th>{i.node.T1} </th>
-            })}
-           </tr>
-           <tr>
-            {data.allTiersJson.edges.map((i) => {
-              return <th>{i.node.T2a} </th>
-            })}
-          </tr>
+          {data.allTiersJson.edges.map((i) => {
+            return <tr>
+              <td>{i.node.Tier}</td>
+              {i.node.Lift.map((j) => {
+                return <td>{j}</td>
+              })}
+            </tr>
+          })}
         </tbody>
       </table>
     </div>

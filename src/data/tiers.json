@@ -1,6 +1,9 @@
 [
-  {"T1": "Squat", "T2a": "Spoto Bench"},
-  {"T1": "Bench", "T2a": "Sumo Deadlift"},
-  {"T1": "Deadlift", "T2a": "Push Press"},
-  {"T1": "OHP", "T2a": "Paused Squat"}
+  {"Tier": "T1", "Lift": ["Squat", "Bench", "Deadlift", "OHP"]},
+  {"Tier": "T2a", "Lift": ["Spoto Press", "Sumo Deadlift", "Push Press", "Paused Squat"]},
+  {"Tier": "T2b", "Lift": ["RDL", "Incline Bench", "Front Squat", "CGBP"]},
+  {"Tier": "T3a", "Lift": ["DB Shoulder Press", "Leg Press", "Incline DB", "BB Row"]},
+  {"Tier": "T3b", "Lift": ["Leg Extension", "Pec Fly", "DB Row", "Lateral Raise"]},
+  {"Tier": "T3c", "Lift": ["Machine Row", "Lat Pulldown", "Face Pull", "Leg Curl"]},
+  {"Tier": "T3d", "Lift": ["Preacher Curls", "Cable Curls", "Tricep Pulldown", "DB Curl"]}
 ]
