@@ -1,6 +1,6 @@
 [
-    {"day": "Day One", "T1": "Squat", "T1max": 455},
-    {"day": "Day Two", "T1": "Bench", "T1max": 265},
-    {"day": "Day Three", "T1": "Deadlift", "T1max": 475},
-    {"day": "Day Four", "T1": "OHP", "T1max": 175}
+    {"day": "Day One", "T1": "Squat", "T1max": 100},
+    {"day": "Day Two", "T1": "Bench", "T1max": 100},
+    {"day": "Day Three", "T1": "Deadlift", "T1max": 100},
+    {"day": "Day Four", "T1": "OHP", "T1max": 100}
 ]

@@ -19,6 +19,8 @@ const IndexPage = () => (
     <Link to="/test-page/">Go to test page</Link>
     <br></br>
     <Link to="/calander-view">Go to calander view</Link>
+    <br></br>
+    <Link to="/excercises">Go to Excercices</Link>
   </Layout>
 )
 
