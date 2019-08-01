@@ -2,7 +2,6 @@ import React from 'React'
 import { useStaticQuery, graphql } from "gatsby"
 import GetMaxes from "../components/get-maxes"
 
-
 const MaxesForm = () => {
 
   const data = useStaticQuery(graphql`
