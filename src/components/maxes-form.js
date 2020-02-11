@@ -50,10 +50,13 @@ const MaxesForm = () => {
               Deadlift: ${inputs.Deadlift},
               OHP: ${inputs.OHP}
       `)
+      // use a graphql transform or a useEffect here maybe 
+      /*
       data.allDaysJson.edges[0].node.T1max = inputs.Squat
       data.allDaysJson.edges[1].node.T1max = inputs.Bench
       data.allDaysJson.edges[2].node.T1max = inputs.Deadlift
       data.allDaysJson.edges[3].node.T1max = inputs.OHP
+      */
   }
 
   const {inputs, handleInputChange, handleSubmit} = GetMaxes({Squat: 100,Bench: 100,Deadlift: 100,OHP: 100,}, EnterData)

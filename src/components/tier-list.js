@@ -13,21 +13,29 @@ const TierList = () => {
           }
         }
       }
+      allDaysJson {
+        edges {
+          node {
+            day
+          }
+        }
+      }
     }
   `) 
 
   return (
     <div class="container">
       <table class="table table-bordered">
-       {/* <thead>
+
+        <thead>
           <tr>
             <th></th>
-            {data.allTiersJson.edges.map((i) => {
-              return <th>Day</th>
+            {data.allDaysJson.edges.map((i) => {
+              return <th>{i.node.day}</th>
             })}
           </tr>
         </thead>
-          */}
+
         <tbody>
           {data.allTiersJson.edges.map((i) => {
             return <tr>
