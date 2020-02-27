@@ -1,7 +1,7 @@
 export default {
   name: 'squat', 
   title: 'Squat',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'max',

@@ -1,7 +1,7 @@
 export default {
   name: 'ohp', 
   title: 'OHP',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'max',

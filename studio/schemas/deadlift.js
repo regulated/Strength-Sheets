@@ -1,7 +1,7 @@
 export default {
   name: 'deadlift', 
   title: 'Deadlift',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'max',

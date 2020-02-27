@@ -1,7 +1,7 @@
 export default {
   name: 'bench', 
   title: 'Bench',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'max',

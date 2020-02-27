@@ -63,7 +63,7 @@ const MaxesForm = () => {
 
   return(
     <div class="container">
-      <h2>Enter Current Maxes</h2>
+      <h2>Enter Training Maxes</h2>
         <form onSubmit={handleSubmit}>
           <div>
             <label>Squat:</label>
