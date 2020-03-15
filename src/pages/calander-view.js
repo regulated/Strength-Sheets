@@ -22,7 +22,7 @@ const CalanderView = ({data}) => (
     
     <PeriodizationTable/>
         
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/excercises">Go to Excercices</Link>
   </Layout>
 )
 
