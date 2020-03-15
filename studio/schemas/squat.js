@@ -1,11 +1,15 @@
 export default {
   name: 'squat', 
   title: 'Squat',
-  type: 'object',
+  type: 'document',
   fields: [
     {
       name: 'max',
-      type: 'number', value: 100 
+      title: 'Max',
+      type: 'number' 
     }
-  ]
+  ],
+  initialValue: {
+    max: 100
+  }
 }
