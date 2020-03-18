@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MaxesForm from "../components/maxes-form"
 import DupTable from "../components/dup-table"
 import PeriodizationTable from "../components/periodization-table";
+import Test from "../components/test"
   
 
 
@@ -17,6 +17,8 @@ const CalanderView = ({data}) => (
     <h1>Calander View</h1>
 
     <MaxesForm/>
+
+    <Test/>
 
     <DupTable/>
     

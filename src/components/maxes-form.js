@@ -1,10 +1,10 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
+//import { useStaticQuery, graphql } from "gatsby"
 import GetMaxes from "../components/get-maxes"
 
 const MaxesForm = () => {
 
-  const data = useStaticQuery(graphql`
+  /*const data = useStaticQuery(graphql`
     query {
       allDaysJson {
         edges {
@@ -41,7 +41,7 @@ const MaxesForm = () => {
       } 
     }
   `) 
-
+*/
 
   const EnterData = () => {
       alert(`Max Entered!

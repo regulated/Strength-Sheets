@@ -21,9 +21,9 @@ const GetMaxes = (initialValues, callback) => {
   }
 
   return {
-    handleSubmit,
+    inputs,
     handleInputChange,
-    inputs
+    handleSubmit
   }
 }
 
