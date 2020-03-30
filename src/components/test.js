@@ -51,11 +51,26 @@ const Test = () => {
     ohp: 175
   });
 
+  const [display, setDisplay] = useState({
+    squat: 455,
+    bench: 265,
+    deadlift: 475,
+    ohp: 175
+  });
+
 
   const handleSubmit = event => {
     if (event) {
       event.preventDefault();
     }
+    event.persist();
+    setDisplay(display => ({
+      ...display,
+      squat: inputs.squat,
+      bench: inputs.bench,
+      deadlift: inputs.deadlift,
+      ohp: inputs.ohp,
+    }))
   };
 
   const handleInputChange = event => {
@@ -66,7 +81,7 @@ const Test = () => {
     }));
   };
 
-  const inputValues = Object.values(inputs)
+  const inputValues = Object.values(display)
 
 
   return (
