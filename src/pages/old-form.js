@@ -6,22 +6,23 @@ import SEO from "../components/seo"
 import MaxesForm from "../components/maxes-form"
 import DupTable from "../components/dup-table"
 import PeriodizationTable from "../components/periodization-table";
-import Test from "../components/test"
   
 
 
-const CalanderView = ({data}) => (
+const OldForm = ({data}) => (
 
   <Layout>
-    <SEO title="Calander View" />
-    <h1>Calander View</h1>
+    <SEO title="Old Form" />
+    <h1>Old Form</h1>
 
-    <Test/>
+    <MaxesForm/>
 
-    <Link to="/excercises">Go to Excercices</Link>
-    <br></br>
+    <DupTable/>
+    
+    <PeriodizationTable/>
+        
     <Link to="/">Go Home</Link>
   </Layout>
 )
 
-export default CalanderView
+export default OldForm
