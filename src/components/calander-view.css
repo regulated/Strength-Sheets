@@ -1,0 +1,27 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 5px;
+}
+
+label {
+  justify-self: end;
+  grid-column: 1;
+}
+
+input {
+  width: 50px;
+  grid-column: 2;
+  text-align: center;
+}
+
+button {
+  justify-self: center;
+}

@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import "./calander-view.css"
 
 const Test = () => {
 
@@ -87,11 +88,11 @@ const Test = () => {
   return (
     
     <div>
-    <h2>Form</h2>
 
+    <div class="wrapper">
     <form onSubmit={handleSubmit}>
-      <div>
-        <label>squat:</label>
+      <div class="inner">
+        <label>Squat:</label>
         <input
           type="text"
           name="squat"
@@ -101,8 +102,8 @@ const Test = () => {
         />
       </div>
 
-      <div>
-        <label>bench:</label>
+      <div class="inner">
+        <label>Bench:</label>
         <input
           type="text"
           name="bench"
@@ -112,8 +113,8 @@ const Test = () => {
         />
       </div>
 
-      <div>
-        <label>deadlift:</label>
+      <div class="inner">
+        <label>Deadlift:</label>
         <input
           type="text"
           name="deadlift"
@@ -123,8 +124,8 @@ const Test = () => {
         />
       </div>
 
-      <div>
-        <label>ohp:</label>
+      <div class="inner">
+        <label>OHP:</label>
         <input
           type="text"
           name="ohp"
@@ -135,11 +136,11 @@ const Test = () => {
       </div>
 
     </form>
-    <button type="submit" onClick={handleSubmit}>Submit</button>
+    <button style={{backgroundColor: "#B19CD9"}} type="submit" onClick={handleSubmit}>Submit</button>
+    </div>
 
     
     <div class="container">
-      <h2>Test</h2>
       <table class="table table-bordered">
         <thead>
           <tr>

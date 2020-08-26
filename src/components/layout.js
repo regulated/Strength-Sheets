@@ -28,8 +28,11 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
+            backgroundColor: `#222831`,
+            backgroundClip: `borderBox`,
+            color: `white`,
             margin: `0 auto`,
-            maxWidth: 960,
+            maxWidth: 1960,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}

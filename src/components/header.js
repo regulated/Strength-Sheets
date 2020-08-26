@@ -5,14 +5,15 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#339999`,
-      marginBottom: `1.45rem`,
+      background: `#B19CD9`,
+      paddingBottom: `1.45rem`,
+      backgroundClip: `border-box`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 1960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -20,7 +21,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `black`,
             textDecoration: `none`,
           }}
         >

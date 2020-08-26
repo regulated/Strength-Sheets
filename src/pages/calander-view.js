@@ -14,13 +14,13 @@ const CalanderView = ({data}) => (
 
   <Layout>
     <SEO title="Calander View" />
-    <h1>Calander View</h1>
+    <h2 style={{paddingTop: `10px`}}>Calander View</h2>
 
     <Test/>
 
-    <Link to="/excercises">Go to Excercices</Link>
+    <Link style={{color: `#B19CD9`}} to="/excercises">Go to Excercices</Link>
     <br></br>
-    <Link to="/">Go Home</Link>
+    <Link style={{color: `#B19CD9`}} to="/">Go Home</Link>
   </Layout>
 )
 

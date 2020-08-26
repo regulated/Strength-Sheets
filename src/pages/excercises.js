@@ -14,7 +14,7 @@ const Excercises = () => (
     <TierList/>
 
         
-    <Link to="/calander-view">Go to Calander View</Link>
+    <Link style={{color: `#B19CD9`}} to="/calander-view">Go to Calander View</Link>
   </Layout>
 )
 
