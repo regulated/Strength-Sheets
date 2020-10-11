@@ -43,7 +43,7 @@ const Test = () => {
     }
   `) 
 
-  var count = 2
+  var count = 3
 
   const [inputs, setInputs] = useState({
     squat: 100,
@@ -178,8 +178,8 @@ const Test = () => {
             {data.allDaysJson.edges.map((j) => {
               count++
               // return Lift-Reps-Weights(rounded down to nearest 5)
-              return <td>{j.node.T1} {data.allDupJson.edges[count%3].node.reps} @ 
-              {(inputValues[count%4] * data.allDupJson.edges[count%3].node.perc) - (inputValues[count%4] * data.allDupJson.edges[count%3].node.perc)%5}</td>
+              return <td>{j.node.T1} {data.allDupJson.edges[(count-1)%3].node.reps} @ 
+              {(inputValues[count%4] * data.allDupJson.edges[(count-1)%3].node.perc) - (inputValues[count%4] * data.allDupJson.edges[(count-1)%3].node.perc)%5}</td>
             })}
             </tr>
           })}
