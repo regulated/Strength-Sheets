@@ -93,15 +93,17 @@ const Test = () => {
 
     <div class="inner-1">
       <p>
+        <pre>
         Enter your current max lifts to see your daily undulating periorized program.
         <br></br>
         <br></br>
         The program cycles through 3 differend days over a 4 week periorized
         <br></br>
         <br></br>
-        High Volume:   3 sets of 8 reps at 80% of max<br></br>
-        Medium Volume: 4 sets of 5 reps at 85% of max<br></br>
-        Low Volume:    5 sets of 3 reps at 90% of max<br></br>
+        High Volume:    3 sets of 8 reps at 80% of max<br></br>
+        Medium Volume:  4 sets of 5 reps at 85% of max<br></br>
+        Low Volume:     5 sets of 3 reps at 90% of max<br></br>
+        </pre>
       </p>
     </div>
 
