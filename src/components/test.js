@@ -43,20 +43,20 @@ const Test = () => {
     }
   `) 
 
-  var count = 3
+  var count = 2
 
   const [inputs, setInputs] = useState({
-    squat: 455,
-    bench: 265,
-    deadlift: 475,
-    ohp: 175
+    squat: 100,
+    bench: 100,
+    deadlift: 100,
+    ohp: 100
   });
 
   const [display, setDisplay] = useState({
-    squat: 455,
-    bench: 265,
-    deadlift: 475,
-    ohp: 175
+    squat: 100,
+    bench: 100,
+    deadlift: 100,
+    ohp: 100
   });
 
 
@@ -90,8 +90,24 @@ const Test = () => {
     <div>
 
     <div class="wrapper">
+
+    <div class="inner-1">
+      <p>
+        Enter your current max lifts to see your daily undulating periorized program.
+        <br></br>
+        <br></br>
+        The program cycles through 3 differend days over a 4 week periorized
+        <br></br>
+        <br></br>
+        High Volume:   3 sets of 8 reps at 80% of max<br></br>
+        Medium Volume: 4 sets of 5 reps at 85% of max<br></br>
+        Low Volume:    5 sets of 3 reps at 90% of max<br></br>
+      </p>
+    </div>
+
+
     <form onSubmit={handleSubmit}>
-      <div class="inner">
+      <div class="inner-2">
         <label>Squat:</label>
         <input
           type="text"
@@ -102,7 +118,7 @@ const Test = () => {
         />
       </div>
 
-      <div class="inner">
+      <div class="inner-2">
         <label>Bench:</label>
         <input
           type="text"
@@ -113,7 +129,7 @@ const Test = () => {
         />
       </div>
 
-      <div class="inner">
+      <div class="inner-2">
         <label>Deadlift:</label>
         <input
           type="text"
@@ -124,7 +140,7 @@ const Test = () => {
         />
       </div>
 
-      <div class="inner">
+      <div class="inner-2">
         <label>OHP:</label>
         <input
           type="text"
@@ -135,13 +151,18 @@ const Test = () => {
         />
       </div>
 
+      <div class="inner-2">
+        <button style={{backgroundColor: "#B19CD9"}} type="submit" onClick={handleSubmit}>Submit</button>
+      </div>
+
     </form>
-    <button style={{backgroundColor: "#B19CD9"}} type="submit" onClick={handleSubmit}>Submit</button>
+
+
     </div>
 
     
     <div class="container">
-      <table class="table table-bordered">
+      <table class="table">
         <thead>
           <tr>
             <th></th>

@@ -1,14 +1,20 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
 }
 
-.inner {
+.inner-2 {
+  grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   padding: 5px;
+}
+
+.inner-1 {
+  justify-self: left;
+  grid-column: 1;
 }
 
 label {
@@ -23,5 +29,6 @@ input {
 }
 
 button {
-  justify-self: center;
+  justify-self: left;
+  grid-column: 2;
 }

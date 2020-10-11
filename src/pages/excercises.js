@@ -9,12 +9,14 @@ const Excercises = () => (
 
   <Layout>
     <SEO title="Excercises" />
-    <h1>Excercises</h1>
+    <h2>Excercises</h2>
 
     <TierList/>
 
         
     <Link style={{color: `#B19CD9`}} to="/calander-view">Go to Calander View</Link>
+    <br></br>
+    <Link style={{color: `#B19CD9`}} to="/">Go Home</Link>
   </Layout>
 )
 
