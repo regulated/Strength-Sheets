@@ -18,7 +18,7 @@ const CalendarView = ({data}) => (
 
     <Test/>
 
-    <Link style={{color: `#B19CD9`}} to="/exercises">Go to Exercices</Link>
+    <Link style={{color: `#B19CD9`}} to="/exercises">Go to Exercises</Link>
     <br></br>
     <Link style={{color: `#B19CD9`}} to="/">Go Home</Link>
   </Layout>

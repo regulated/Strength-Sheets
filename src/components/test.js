@@ -94,10 +94,10 @@ const Test = () => {
     <div class="inner-1">
       <p>
         <pre>
-        Enter your current max lifts to see your daily undulating periorized program.
+        Enter your current max lifts to see a custom daily undulating periodization program.
         <br></br>
         <br></br>
-        The program cycles through 3 differend days over a 4 week periorized
+        The program cycles through 3 different days over a 4 week period.
         <br></br>
         <br></br>
         High Volume:    3 sets of 8 reps at 80% of max<br></br>

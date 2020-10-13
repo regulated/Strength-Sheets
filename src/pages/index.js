@@ -12,7 +12,7 @@ const IndexPage = () => (
     </div>
     <Link style={{color: `#B19CD9`}} to="/calendar-view">Go to Calendar View</Link>
     <br></br>
-    <Link style={{color: `#B19CD9`}} to="/exercises">Go to Exercices</Link>
+    <Link style={{color: `#B19CD9`}} to="/exercises">Go to Exercises</Link>
     {/*<br></br>
     <Link style={{color: `#B19CD9`}} to="/old-form">Go to Old Form</Link>
     */}
