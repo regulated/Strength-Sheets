@@ -10,9 +10,9 @@ const IndexPage = () => (
     <h2 style={{ paddingTop: `10px`}}>Welcome to Strength Sheets.</h2>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
-    <Link style={{color: `#B19CD9`}} to="/calander-view">Go to Calander View</Link>
+    <Link style={{color: `#B19CD9`}} to="/calendar-view">Go to Calendar View</Link>
     <br></br>
-    <Link style={{color: `#B19CD9`}} to="/excercises">Go to Excercices</Link>
+    <Link style={{color: `#B19CD9`}} to="/exercises">Go to Exercices</Link>
     {/*<br></br>
     <Link style={{color: `#B19CD9`}} to="/old-form">Go to Old Form</Link>
     */}

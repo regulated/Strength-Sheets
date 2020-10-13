@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import "./calander-view.css"
+import "./calendar-view.css"
 
 const Test = () => {
 
