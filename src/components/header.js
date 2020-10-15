@@ -8,6 +8,7 @@ const Header = ({ siteTitle }) => (
       background: `#B19CD9`,
       paddingBottom: `1.45rem`,
       backgroundClip: `border-box`,
+      height: `15vh`
     }}
   >
     <div

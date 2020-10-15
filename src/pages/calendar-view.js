@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import MaxesForm from "../components/maxes-form"
-import DupTable from "../components/dup-table"
-import PeriodizationTable from "../components/periodization-table";
+//import MaxesForm from "../components/maxes-form"
+//import DupTable from "../components/dup-table"
+//import PeriodizationTable from "../components/periodization-table";
 import Test from "../components/test"
   
 

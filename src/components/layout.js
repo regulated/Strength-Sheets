@@ -32,13 +32,16 @@ const Layout = ({ children }) => (
             backgroundClip: `borderBox`,
             color: `white`,
             margin: `0 auto`,
-            maxWidth: 1960,
+            maxWidth: 4096,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            display: `flex`,
+            flexFlow: `column`,
+            height: `85vh`,
           }}
         >
           <main>{children}</main>
-          <footer>
+          <footer style={{position: `relative`, bottom: 0, left: 0}}>
             © {new Date().getFullYear()}
           </footer>
         </div>
