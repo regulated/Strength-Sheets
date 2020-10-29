@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
             paddingTop: 0,
             display: `flex`,
             flexFlow: `column`,
-            height: `85vh`,
+            height: `90vh`,
           }}
         >
           <main>{children}</main>

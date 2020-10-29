@@ -8,13 +8,13 @@ const Header = ({ siteTitle }) => (
       background: `#B19CD9`,
       paddingBottom: `1.45rem`,
       backgroundClip: `border-box`,
-      height: `15vh`
+      height: `10vh`
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 1960,
+        maxWidth: 3440,
         padding: `1.45rem 1.0875rem`,
       }}
     >
