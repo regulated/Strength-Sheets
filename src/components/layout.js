@@ -28,7 +28,6 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
-            backgroundColor: `#222831`,
             backgroundClip: `borderBox`,
             color: `white`,
             margin: `0 auto`,
@@ -37,7 +36,6 @@ const Layout = ({ children }) => (
             paddingTop: 0,
             display: `flex`,
             flexFlow: `column`,
-            height: `90vh`,
           }}
         >
           <main>{children}</main>
