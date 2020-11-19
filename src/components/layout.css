@@ -1,6 +1,12 @@
 html {
   font-family: sans-serif;
   background-color: #222831;
+  /*height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+background: rgb(45,44,59);
+background: linear-gradient(135deg, rgba(45,44,59,1) 0%, rgba(77,70,96,1) 100%);
+*/
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -15,12 +21,16 @@ details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
 section,
 summary {
+  display: block;
+}
+header {
+background: rgb(183,167,214);
+background: linear-gradient(129deg, rgba(183,167,214,1) 0%, rgba(98,65,163,1) 100%);
   display: block;
 }
 audio,

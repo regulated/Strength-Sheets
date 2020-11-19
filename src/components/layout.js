@@ -34,8 +34,6 @@ const Layout = ({ children }) => (
             maxWidth: 4096,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
-            display: `flex`,
-            flexFlow: `column`,
           }}
         >
           <main>{children}</main>
