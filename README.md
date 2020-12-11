@@ -1,1 +1,1 @@
-This is a template for two workout programs
+This is a template for a workout program structured around the principles of daily undulating periodization. There are four main lifts that alternate between three different days of low volume, medium volume, and high volume. The program lets you enter your current one rep max on each of the lifts and creates a program for you based on the percentages of the maxes.
