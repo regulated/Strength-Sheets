@@ -14,9 +14,9 @@ const Excercises = () => (
     <TierList/>
 
         
-    <Link style={{color: `#B19CD9`}} to="/calendar-view">DUP Program</Link>
+    <Link style={{color: `#B19CD9`}} to="/">DUP Program</Link>
     <br></br>
-    <Link style={{color: `#B19CD9`}} to="/">Home</Link>
+    {/*<Link style={{color: `#B19CD9`}} to="/">Home</Link>*/}
   </Layout>
 )
 

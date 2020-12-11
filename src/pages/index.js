@@ -3,11 +3,22 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import DUPprogram from "../components/dup-program"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-      <h2 style={{ paddingTop: `10px`}}>Welcome to Strength Sheets.</h2>
+
+      <h2 style={{paddingTop: `10px`}}>DUP Program</h2>
+
+      <DUPprogram/>
+
+      <Link style={{color: `#B19CD9`}} to="/exercises">Exercise Selection</Link>
+      <br></br>
+      {/*<Link style={{color: `#B19CD9`}} to="/">Home</Link>*/}
+      
+
+      {/*<h2 style={{ paddingTop: `10px`}}>Welcome to Strength Sheets.</h2>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       </div>
       <div style={{position: `relative`, bottom: 0, left: 0}}>
@@ -15,7 +26,7 @@ const IndexPage = () => (
       <br></br>
       <Link style={{color: `#B19CD9`}} to="/exercises">Exercise Selection</Link>
       </div>
-      {/*<br></br>
+      <br></br>
       <Link style={{color: `#B19CD9`}} to="/old-form">Go to Old Form</Link>
       */}
   </Layout>
